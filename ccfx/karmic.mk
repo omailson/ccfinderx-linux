@@ -3,7 +3,7 @@ DEFS = -DOS_UBUNTU -DLITTLE_ENDIAN -DCXLM_NO_ENC -DCODE_CONVERSION_SUPPORT -DWST
 #OPTS = -O2 -I/usr/include/python2.5/
 OPTS = -O2 -fpermissive
 
-LIBS = -licule -licutu -licuio -licuuc -liculx -licudata -licui18n -lboost_thread-mt
+LIBS = -licule -licutu -licuio -licuuc -liculx -licudata -licui18n -lboost_thread
 
 OBJS = base64encoder.o bitvector.o ccfx.o ccfxcommon.o prettyprintermain.o rawclonepairdata.o unportable.o utf8support.o ccfxconstants.o
 
