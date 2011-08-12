@@ -776,6 +776,7 @@ int main(int argc, char *argv[])
 #include <windows.h>
 #endif
 
+#include <linux/jni_md.h>
 #include <jni.h>
 
 #include "../GemX/utility_Picosel.h"

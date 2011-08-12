@@ -1,9 +1,9 @@
 DEFS = -DOS_UBUNTU -DLITTLE_ENDIAN -DCXLM_NO_ENC -DCODE_CONVERSION_SUPPORT -DWSTRING_CONVERSION_SUPPORT -DREQUIRE_RNR -DBUILD_PICOSELLIB
 
-OPTS = -O2 -fpermissive -I/usr/lib/jvm/java-6-openjdk/include/
+OPTS = -O2 -fpermissive -I/usr/lib/jvm/java-6-openjdk/include/ -I/usr/lib/jvm/java-6-openjdk/include/linux/
 #OPTS = -O2 -fpermissive
 
-LIBS = -licule -licutu -licuio -licuuc -liculx -licudata -licui18n -lboost_thread-mt
+LIBS = -licule -licutu -licuio -licuuc -liculx -licudata -licui18n -lboost_thread
 
 OBJS = picosel.o
 
