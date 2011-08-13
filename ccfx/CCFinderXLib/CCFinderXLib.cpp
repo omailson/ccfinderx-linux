@@ -410,7 +410,7 @@ JNIEXPORT jstring JNICALL Java_ccfinderx_CCFinderX_getPythonInterpreterPath
 #if defined _MSC_VER
 		thePythonInterpreterPath = "C:" "\\" "Python26" "\\" "python.exe";
 #elif defined OS_UBUNTU
-		thePythonInterpreterPath = "/usr/bin/python";
+		thePythonInterpreterPath = "/usr/bin/python2";
 #endif
 	}
 	return env->NewStringUTF(thePythonInterpreterPath.c_str()); // may return null
