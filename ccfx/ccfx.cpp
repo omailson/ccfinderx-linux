@@ -2564,7 +2564,7 @@ void setup_global_constants(const char *argv0)
 		}
 		else {
 #if defined OS_UBUNTU
-			thePythonInterpreterPath = "/usr/bin/python";
+			thePythonInterpreterPath = "/usr/bin/python2";
 #endif
 #if defined _MSC_VER
 			std::string s = get_open_command_for_extension(".py");
