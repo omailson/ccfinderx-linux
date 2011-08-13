@@ -27,9 +27,6 @@ texttoken.o: ../texttoken.cpp
 torqcommon.o: ../torqcommon.cpp
 	$(CC) $(DEFS) $(OPTS) -c $< -o $@
 
-torqcommon.o: ../torqcommon.cpp
-	$(CC) $(DEFS) $(OPTS) -c $< -o $@
-
 unportable.o: ../../common/unportable.cpp
 	$(CC) $(DEFS) $(OPTS) -c $< -o $@
 
