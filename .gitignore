@@ -1,4 +1,6 @@
 *.[oa]
 *.so
+*.pyc
+__pycache__/
 ubuntu32/ccfx
 ubuntu32/picosel
