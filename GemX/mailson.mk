@@ -1,5 +1,5 @@
 JARS = /usr/share/java/swt.jar:trove-2.0.4.jar:pathjson.jar:icu4j-localespi-4_0_1.jar:icu4j-charsets-4_0_1.jar:icu4j-4_0_1.jar
-OPTS = -g:none -target 1.5
+OPTS = -g:none -target 1.5 -nowarn
 
 ../ubuntu32/gemxlib.jar: ../ubuntu32/GemXMain.class
 	javac $(OPTS) -classpath $(JARS):. ccfinderx/*.java
