@@ -37,5 +37,6 @@ utf8support.o: ../common/utf8support.cpp
 
 clean:
 	@rm -f *.o
+	@rm -f ../ubuntu32/ccfx
 
 .PHONY: clean

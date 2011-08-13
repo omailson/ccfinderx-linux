@@ -20,6 +20,7 @@ picosel.o: ../../picosel/picosel.cpp
 
 clean:
 	@rm -f *.o
+	@rm -f ../../ubuntu32/libpicosellib.so
 
 .PHONY : clean
 

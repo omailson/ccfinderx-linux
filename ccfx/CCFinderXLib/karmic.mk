@@ -32,6 +32,7 @@ ccfxconstants.o: ../ccfxconstants.cpp
 
 clean:
 	@rm -f *.o
+	@rm -f ../../ubuntu32/lib_CCFinderXLib.so
 
 .PHONY : clean
 

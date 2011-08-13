@@ -38,6 +38,7 @@ utf8support.o: ../../common/utf8support.cpp
 
 clean:
 	@rm -f *.o
+	@rm -f ../../ubuntu32/scripts/easytorq.so
 
 .PHONY : clean
 

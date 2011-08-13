@@ -21,6 +21,7 @@ unportable.o: ../common/unportable.cpp
 
 clean:
 	@rm -f *.o
+	@rm -f ../ubuntu32/picosel
 
 .PHONY : clean
 
