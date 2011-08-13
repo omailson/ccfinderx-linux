@@ -384,7 +384,9 @@ std::string get_application_data_path()
 	}
 	return "";
 #else
-	return "~/.CCFinderX";
+	std::string data_path = getenv("HOME");
+	data_path.append("/.CCFinderX");
+	return data_path;
 #endif
 }
 
