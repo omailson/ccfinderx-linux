@@ -1,0 +1,7 @@
+From CCFinderX website: AIST CCFinderX is a code-clone detector, which detects code clones (duplicated code fragments) from source files written in Java, C/C++, COBOL, VB, C#. 
+CCFinderX is a major version up of CCFinder, and it has been totally re-designed and re-implemented from scratch. Its new design and technologies aim at improving performance, enabling a user-side customization of a preprocessor, and providing an interactive analysis based on metrics.
+
+This project is to help people who wish to run this application on Linux, specially on Arch Linux. It follows the steps described on Nicolas Bettenburg article (http://nicolas-bettenburg.com/?p=290) and also configures CCFinderX GUI (not described there)
+
+This is my first attempt to create an Arch Linux package.
+
